@@ -4,40 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles1.css">
     <title>Landing Page</title>
 </head>
 
 <body>
-    <div class="header">
-        <div class="navar">
+    <div class="hero">
+        <div class="hero-header">
             <div class="logo">
                 Header Logo
             </div>
-            <ul class="links">
+            <ul class="hero-links">
                 <li><a href="#">header link one</a></li>
                 <li><a href="#">header link two</a></li>
                 <li><a href="#">header link three</a></li>
             </ul>
         </div>
 
-        <div class="hero-text">
-            <div class="content">
-                <p>This website is awesome</p>
-                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-                <button class="sign-up">Sign up</button>
+        <div class="hero-content">
+            <div class="hero-content-text">
+                <h1 class="main-text">This website is awesome</h1>
+                <p class="secondary-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                <button>Sign up</button>
             </div>
-            <div class="image">
-                This is a placeholder for an image
-            </div>
+            <img src="./images/cartoonbg.jpg" height="215px" width="auto" alt="this is a placeholder image">
         </div>
     </div>
 
-    <div class="card-container"></div>
+    <div class="content">
+        <h2>Some random information.</h2>
 
-    <div class="quote-container"></div>
+        <div class="content-items-wrapper">
+            <figure class="content-item">
+                <img  src="./images/snoopy1.jpeg" width="150px" height="150px" alt="this is a small placeholder image">
+                <figcaption class="subtext">This is some subtext under an illustration or image</figcaption>
+            </figure>
 
-    <div class="footer"></div>
+            <figure class="content-item">
+                <img  src="./images/snoopy2.png" width="150px" height="150px" alt="this is a small placeholder image">
+                <figcaption class="subtext">This is some subtext under an illustration or image</figcaption>
+            </figure>
+
+            <figure class="content-item">
+                <img  src="./images/snoopy3.jpeg" width="150px" height="150px" alt="this is a small placeholder image">
+                <figcaption class="subtext">This is some subtext under an illustration or image</figcaption>
+            </figure>
+
+            <figure class="content-item">
+                <img  src="./images/snoopy4.jpeg" width="150px" height="150px" alt="this is a small placeholder image">
+                <figcaption class="subtext">This is some subtext under an illustration or image</figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <div class="testimonials">
+        <div class="testimonial-item">
+            <p class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+            <p class="quote-signature"> -Thor, God of Thunder</p>
+        </div>
+    </div>
+
+    <div class="advert">
+       <div class="advert-text">
+            <p class="advert-header">Call to action! It's time!</p>
+            <p class="advert-subtext">Sign up for our product by clicking that button right over there!</p>
+       </div>
+       <button class="sign-up-2">Sign up</button>
+    </div>
+
+    <div class="footer">
+        Copyright &copy; Odin Project 2021
+    </div>
 </body>
 
 </html>
