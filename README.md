@@ -2,6 +2,11 @@
 
 This project is part of The Odin Project's curriculum. I built the Holy Grail website layout from scratch using my knowledge of the basics of HTML and CSS.
 
+## Live Preview
+
+You can check out the live version of the Etch-a-Sketch project [here](https://sharwari19.github.io/Landing-Page/).
+
+
 ## Project Description
 
 The Holy Grail layout is a classic web design challenge that involves creating a webpage with the following layout:
